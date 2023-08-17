@@ -1,0 +1,58 @@
+// imports
+@use "./imports/base/base" as *; // Base
+
+@use "./imports/colors/colors" as *;
+@use "./imports/shades/shades" as *;
+@use "./imports/background/textureBackgrounds" as *;
+@use "./imports/shadow/boxShadows" as *;
+@use "./imports/themes/themes" as *; //
+
+:root {
+  /*----------< colors >----------*/
+  --clr-primary: var(--clr-green);
+  --clr-secondary: var(--clr-purple);
+
+  /*----------< colors >----------*/
+  @each $colors, $value in $colors {
+    --clr-#{$colors}: #{$value};
+  }
+
+  /*----------< shades >----------*/
+  @each $color, $shades in $shades {
+    @each $shade, $value in $shades {
+      --clr-#{$color}-#{$shade}: #{$value};
+    }
+  }
+
+  /*----------< gradient backgrounds >----------*/
+  @each $shape, $gradients in $bg {
+    @each $gradient-name, $gradient-value in $gradients {
+      --#{$shape}-#{$gradient-name}: #{$gradient-value};
+    }
+  }
+
+  /*----------< box shadows >----------*/
+  @each $key, $value in $boxShadow {
+    --box-shadow-#{$key}: #{$value};
+  }
+
+  //   --image-shadow: 0 1px 7px rgb(0, 0, 0, 0.5);
+}
+
+// Import text or fonts color shades for color classes
+@each $color, $shades in $shades {
+  @each $shade, $value in $shades {
+    .text-#{$color}-#{$shade} {
+      color: #{$value};
+    }
+  }
+}
+
+// import shades as class names as background colors
+@each $color, $shades in $shades {
+  @each $shade, $value in $shades {
+    .text-#{$color}-#{$shade} {
+      background-color: #{$value};
+    }
+  }
+}
