@@ -51,7 +51,7 @@
 // import shades as class names as background colors
 @each $color, $shades in $shades {
   @each $shade, $value in $shades {
-    .text-#{$color}-#{$shade} {
+    .bg-#{$color}-#{$shade} {
       background-color: #{$value};
     }
   }
