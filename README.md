@@ -12,12 +12,6 @@ To start using Alencss in your project, follow these steps:
 1. Installation: You can include Alencss in your project by linking to the provided CSS file.
    Add the following line to the `<head>` section of your HTML file:
 
-   Please Note: You have the option to utilize two types of CSS links - standard CSS (css) and minified CSS (min.css). Feel free to select either of these based on your preferences and requirements.
-
-```md
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/anexcodes/alencss@main/stylesheets/css/style.css">
-```
-
 ```md
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/anexcodes/alencss@main/stylesheets/min/style.min.css">
 ```
