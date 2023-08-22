@@ -1,5 +1,5 @@
 // imports
-@use "./imports/base/base" as *; // Base
+@use "./imports/base/base" as *;
 
 @use "./imports/colors/colors" as *;
 @use "./imports/shades/shades" as *;
@@ -54,5 +54,69 @@
     .bg-#{$color}-#{$shade} {
       background-color: #{$value};
     }
+  }
+}
+
+// For loop for creating "Padding" and "Margin" propertie classes 0 t0 300px
+@for $i from 0 through 300 {
+  .padding-#{$i}px {
+    padding: 0px + $i;
+  }
+
+  .p-left-#{$i}px {
+    padding-left: 0px + $i;
+  }
+
+  .p-top-#{$i}px {
+    padding-top: 0px + $i;
+  }
+
+  .p-bottom-#{$i}px {
+    padding-bottom: 0px + $i;
+  }
+
+  .p-right-#{$i}px {
+    padding-right: 0px + $i;
+  }
+
+  .pl-pr-#{$i}px {
+    padding-left: 0px + $i;
+    padding-right: 0px + $i;
+  }
+
+  .pt-pb-#{$i}px {
+    padding-top: 0px + $i;
+    padding-bottom: 0px + $i;
+  }
+
+  // margin
+  .margin-#{$i}px {
+    margin: 0px + $i;
+  }
+
+  .m-top-#{$i}px {
+    margin-top: 0px + $i;
+  }
+
+  .m-bootom-#{$i}px {
+    margin-bottom: 0px + $i;
+  }
+
+  .m-left-#{$i}px {
+    margin-left: 0px + $i;
+  }
+
+  .m-right-#{$i}px {
+    margin-right: 0px + $i;
+  }
+
+  .ml-mr-#{$i}px {
+    margin-left: 0px + $i;
+    margin-right: 0px + $i;
+  }
+
+  .mt-mb-#{$i}px {
+    margin-top: 0px + $i;
+    margin-bottom: 0px + $i;
   }
 }
