@@ -13,7 +13,7 @@ To start using Alencss in your project, follow these steps:
    Add the following line to the `<head>` section of your HTML file:
 
 ```md
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/anexcodes/alencss@main/stylesheets/min/style.min.css">
+<link rel="https://cdn.jsdelivr.net/gh/anexcodes/alencss@main/stylesheets/min/style.min.css">
 ```
 
 Important Note: This SCSS link is designed to function exclusively with React. It is not compatible with HTML environments. Please ensure that you are using this link within a React application for proper functionality.
