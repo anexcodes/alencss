@@ -18666,4 +18666,196 @@
 .mt-mb-300px {
   margin-top: 300px;
   margin-bottom: 300px;
+}
+
+.dblock {
+  display: block;
+}
+
+.dcontents {
+  display: contents;
+}
+
+.dflex {
+  display: flex;
+}
+
+.dflexbox {
+  display: flexbox;
+}
+
+.dflow-root {
+  display: flow-root;
+}
+
+.dgrid {
+  display: grid;
+}
+
+.dinline {
+  display: inline;
+}
+
+.dinline-block {
+  display: inline-block;
+}
+
+.dinline-flex {
+  display: inline-flex;
+}
+
+.dinline-flex-box {
+  display: inline-flex-box;
+}
+
+.dinline-table {
+  display: inline-table;
+}
+
+.dlist-item {
+  display: list-item;
+}
+
+.dnone {
+  display: none;
+}
+
+.druby {
+  display: ruby;
+}
+
+.druby-base {
+  display: ruby-base;
+}
+
+.druby-base-container {
+  display: ruby-base-container;
+}
+
+.druby-text {
+  display: ruby-text;
+}
+
+.druby-text-container {
+  display: ruby-text-container;
+}
+
+.dru-in {
+  display: ru-in;
+}
+
+.dtable {
+  display: table;
+}
+
+.dtable-caption {
+  display: table-caption;
+}
+
+.dtable-cell {
+  display: table-cell;
+}
+
+.dtable-column {
+  display: table-column;
+}
+
+.dtable-column-group {
+  display: table-column-group;
+}
+
+.dtable-footer-group {
+  display: table-footer-group;
+}
+
+.dtable-header-group {
+  display: table-header-group;
+}
+
+.dtable-row {
+  display: table-row;
+}
+
+.dtable-row-group {
+  display: table-row-group;
+}
+
+.d-moz-box {
+  display: -moz-box;
+}
+
+.d-moz-deck {
+  display: -moz-deck;
+}
+
+.d-moz-grid {
+  display: -moz-grid;
+}
+
+.d-moz-grid-group {
+  display: -moz-grid-group;
+}
+
+.d-moz-grid-line {
+  display: -moz-grid-line;
+}
+
+.d-moz-groupbox {
+  display: -moz-groupbox;
+}
+
+.d-moz-inline-box {
+  display: -moz-inline-box;
+}
+
+.d-moz-inline-grid {
+  display: -moz-inline-grid;
+}
+
+.d-moz-inline-stack {
+  display: -moz-inline-stack;
+}
+
+.d-moz-marker {
+  display: -moz-marker;
+}
+
+.d-moz-popup {
+  display: -moz-popup;
+}
+
+.d-moz-stack {
+  display: -moz-stack;
+}
+
+.d-ms-flexbox {
+  display: -ms-flexbox;
+}
+
+.d-ms-grid {
+  display: -ms-grid;
+}
+
+.d-ms-inline-flexbox {
+  display: -ms-inline-flexbox;
+}
+
+.d-ms-inline-grid {
+  display: -ms-inline-grid;
+}
+
+.d-webkit-box {
+  display: -webkit-box;
+}
+
+.d-webkit-flex {
+  display: -webkit-flex;
+}
+
+.d-webkit-inline-box {
+  display: -webkit-inline-box;
+}
+
+.d-webkit-inline-flex {
+  display: -webkit-inline-flex;
 }/*# sourceMappingURL=style.css.map */

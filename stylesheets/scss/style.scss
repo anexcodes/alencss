@@ -7,6 +7,9 @@
 @use "./imports/shadow/boxShadows" as *;
 @use "./imports/themes/themes" as *; //
 
+// Custom files import
+@use "./imports/custom/classes/property-classes/display-property-classes" as *;
+
 :root {
   /*----------< colors >----------*/
   --clr-primary: var(--clr-green);
@@ -118,5 +121,22 @@
   .mt-mb-#{$i}px {
     margin-top: 0px + $i;
     margin-bottom: 0px + $i;
+  }
+}
+
+// import all custom display classes
+@each $propertyKey, $propertyValues in $property {
+  @each $value in $propertyValues {
+    .#{$propertyKey}#{$value} {
+      display: #{$value};
+    }
+  }
+}
+
+@each $propertyKey, $propertyValues in $property- {
+  @each $value in $propertyValues {
+    .#{$propertyKey}#{$value} {
+      display: #{$value};
+    }
   }
 }
